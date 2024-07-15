@@ -1,0 +1,296 @@
+.card { 
+  margin: 10px;  
+  padding: 0px;
+  box-sizing:border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.card.imagecard.done {
+}
+
+.card .front {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.card .front .image { 
+  width: 100%;
+  height: 100%;
+}
+
+.card { 
+  background: white;
+  cursor: pointer;
+}
+
+.card .back {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.card .back .content { 
+  display: block;
+  box-sizing:border-box;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+
+.card .back .content .centered { 
+  display: block;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.card.flipped .front, .card.done .front {
+  display: none;
+}
+
+.card.flipped .back, .card.done .back { 
+  display: block;
+}
+
+.card.done {
+  cursor: auto;
+}
+
+.card.shadow { 
+  opacity: 0.6
+}
+
+.alldone .card.done, .alldone .card.shadow { 
+  opacity: 1;
+}
+.cardtable {
+  position: absolute;
+}
+
+.cardtable td { 
+  margin: 0px;
+  padding: 0px;
+}
+
+/* 20 first Colors based upon https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/ but modified for black/white font readability*/
+
+.card.done.pair_0 {
+  background: none;
+  background-color: #d6292B;
+}
+.card.done.pair_1 {
+  background: none;
+  background-color: #3cb44b;
+}
+.card.done.pair_2 {
+  background: none;
+  background-color: #ffe119;
+}
+.card.done.pair_3 {
+  background: none;
+  background-color: #4373E8;
+}
+.card.done.pair_4 {
+  background: none;
+  background-color: #f58231;
+}
+.card.done.pair_5 {
+  background: none;
+  background-color: #a14eb4;
+}
+.card.done.pair_6 {
+  background: none;
+  background-color: #42d4f4;
+}
+.card.done.pair_7 {
+  background: none;
+  background-color: #f032e6;
+}
+.card.done.pair_8 {
+  background: none;
+  background-color: #bfef45;
+}
+.card.done.pair_9 {
+  background: none;
+  background-color: #fabebe;
+}
+.card.done.pair_10 {
+  background: none;
+  background-color: #469990;
+}
+.card.done.pair_11 {
+  background: none;
+  background-color: #e6beff;
+}
+.card.done.pair_12 {
+  background: none;
+  background-color: #9A6324;
+}
+.card.done.pair_13 {
+  background: none;
+  background-color: #afeaf0;
+}
+.card.done.pair_14 {
+  background: none;
+  background-color: #B03030;
+}
+.card.done.pair_15 {
+  background: none;
+  background-color: #aaffb3;
+}
+.card.done.pair_16 {
+  background: none;
+  background-color: #808000;
+}
+.card.done.pair_17 {
+  background: none;
+  background-color: #ffd8b1;
+}
+.card.done.pair_18 {
+  background: none;
+  background-color: #30A0C5;
+}
+.card.done.pair_19 {
+  background: none;
+  background-color: #909090;
+}
+.card.done.pair_20 {
+  background: none;
+  background-color: #84A5C8;
+}
+.card.done.pair_21 {
+  background: none;
+  background-color: #92C691;
+}
+.card.done.pair_22 {
+  background: none;
+  background-color: #DFE7BA;
+}
+.card.done.pair_23 {
+  background: none;
+  background-color: #C5C1AA; 
+}
+.card.done.pair_24 {
+  background: none;
+  background-color: #7171C6;
+}
+.card.done.pair_25 {
+  background: none;
+  background-color: #EFA869; 
+}
+.card.done.pair_26 {
+  background: none;
+  background-color: #e3d827; 
+}
+.card.done.pair_27 {
+  background: none;
+  background-color: #D0xA520; 
+}
+.card.done.pair_28 {
+  background: none;
+  background-color: #B4CDCD; 
+}
+.card.done.pair_29 {
+  background: none;
+  background-color: #8FdC8F; 
+}
+
+.symbol { 
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+.speech_button { 
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 32px;
+  height: 32px;
+}
+
+.imagecard .speech_button {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+@keyframes pound {
+  to { transform: scale(1.1); }
+}
+
+.speech_button.pound {
+  animation: pound .25s infinite alternate;
+  animation-delay: 0.1s;
+}
+
+@media only screen and (max-height: 500px) {
+
+  html:not(.ibw-platform-osx-ibooks) .card { 
+    margin: 2px;  
+    padding: 0px;
+    box-sizing:border-box;
+    overflow: hidden;
+    position: relative;
+  }
+
+  html:not(.ibw-platform-osx-ibooks) .symbol { 
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+
+  html:not(.ibw-platform-osx-ibooks) .card { 
+    margin: 2px;  
+    padding: 0px;
+    box-sizing:border-box;
+    overflow: hidden;
+    position: relative;
+  }
+}
